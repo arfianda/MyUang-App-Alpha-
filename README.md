@@ -8,21 +8,21 @@ NIM  : 312410377
 
 ## Storyboard Project
 
-![](docs/Storyboard.png)
+![](/docs/Storyboard.png)
 
 ## Wireframe
 
-![](docs/wireframe.png) 
+![](/docs/wireframe.png) 
 
 
 ## Mockup
 
-<img src="docs/Pixel%2010%20Pro%206.3%20inch%20moonstone%20front.png" width="400">
+<img src="/docs/Pixel%2010%20Pro%206.3%20inch%20moonstone%20front.png" width="400">
 
 
 ## UI
 
-![](docs/UI.png)
+![](/docs/UI.png)
 
 ## UX
 
