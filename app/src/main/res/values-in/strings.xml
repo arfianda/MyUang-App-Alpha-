@@ -1,0 +1,7 @@
+<resources>
+    <string name="location_detected">Lokasi mu terdeteksi di %1$s. Bahasa yang akan digunakan adalah bahasa %2$s!</string>
+    <string name="greeting">Halo!</string>
+    <string name="language_name">Indonesia</string>
+    <string name="welcome">Selamat Datang!</string>
+    <string name="start_tracking">Mulai lacak keuangan Anda!</string>
+</resources>

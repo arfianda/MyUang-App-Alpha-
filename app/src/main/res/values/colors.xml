@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_primary">#151C2A</color>
+    <color name="text_secondary">#7988A3</color>
+    <color name="text_hint">#DADADA</color>
+
+    <!-- Transaction Colors -->
+    <color name="expense_red">#EE6B8D</color>
+    <color name="income_green">#5BDA8C</color>
+
+    <!-- Gradients & Accents -->
+    <color name="nav_gradient_start">#3D22D9</color>
+    <color name="nav_gradient_end">#B05AFE</color>
+    <color name="fab_gradient_start">#5363FF</color>
+    <color name="fab_gradient_end">#3D22D9</color>
+
+    <!-- Design Additions -->
+    <color name="icon_tint">#8293B0</color>
+    <color name="blue_shadow">#CFECF8</color>
+    <color name="icon_bg_light">#A1B6DB</color>
+    
+    <color name="week_gradient_start">#378AF9</color>
+    <color name="week_gradient_end">#BF6DEE</color>
+
+    <!-- Splash Screen -->
+    <color name="splash_text">#263238</color>
+    <color name="splash_primary">#082DB1</color>
+    <color name="splash_accent">#7FB6FF</color>
+
+    <!-- Graph & Analytics -->
+    <color name="text_header_dark">#1F3252</color>
+    <color name="graph_bg_start">#F3F5F9</color>
+    <color name="graph_bg_end">#E3E8F0</color>
+</resources>

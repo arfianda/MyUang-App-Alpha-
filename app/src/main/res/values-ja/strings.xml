@@ -1,0 +1,7 @@
+<resources>
+    <string name="location_detected">あなたの場所は%1$sで検出されました。使用される言語は%2$sです！</string>
+    <string name="greeting">こんにちは!</string>
+    <string name="language_name">日本語</string>
+    <string name="welcome">ようこそ！</string>
+    <string name="start_tracking">あなたの財政を追跡し始めましょう！</string>
+</resources>

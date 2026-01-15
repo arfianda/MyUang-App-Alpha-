@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/welcome_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="99dp"
+        android:fontFamily="@font/sansation_bold"
+        android:text="@string/welcome"
+        android:textColor="#263238"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/title_underline"
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        android:background="#082DB1"
+        app:layout_constraintEnd_toEndOf="@+id/welcome_title"
+        app:layout_constraintStart_toStartOf="@id/welcome_title"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_title" />
+
+    <ImageView
+        android:id="@+id/tracking_illustration"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/mulai_tracking"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_underline"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <TextView
+        android:id="@+id/start_tracking_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/sansation_bold"
+        android:gravity="center"
+        android:text="@string/start_tracking"
+        android:textColor="#263238"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tracking_illustration"
+        app:layout_constraintWidth_percent="0.7" />
+
+    <ImageView
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

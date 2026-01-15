@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="320dp"
+    android:layout_height="190dp"
+    android:layout_marginEnd="16dp"
+    android:background="@drawable/bg_card_visa"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/card_type_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_visa_logo"
+        android:adjustViewBounds="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_more_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/card_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123 123 123 123 123"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:letterSpacing="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/label_card_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card Holder"
+        android:textColor="#CCFFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/card_holder_name" />
+
+    <TextView
+        android:id="@+id/card_holder_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoo Kow We"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/label_expiry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expiry"
+        android:textColor="#CCFFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/card_expiry_date"
+        app:layout_constraintBottom_toTopOf="@+id/card_expiry_date" />
+
+    <TextView
+        android:id="@+id/card_expiry_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="06/26"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
