@@ -14,6 +14,9 @@ NIM  : 312410377
 
 ![](/docs/wireframe.png) 
 
+## Progress
+![](/docs/clickup.png)
+
 
 ## Mockup
 
@@ -28,6 +31,5 @@ NIM  : 312410377
 
 ![DEMO](/docs/splashscreenmyuang.gif)
 
-## Youtube Link
-https://youtube.com/shorts/UfrM5eU99p8?feature=share
+
 
